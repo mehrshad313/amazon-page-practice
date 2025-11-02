@@ -1,0 +1,97 @@
+@font-face {
+    font-family: ubuntu;
+    src: url(Ubuntu-Regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: ubuntu;
+    background-image: url(81mLoEvjbEL._SX3000_.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.firstcol,.seccol,.thirdcol,.fourcol{
+    width: 22%;
+   min-height: 200px;
+   background-color: rgba(255, 255, 255, 0.8);
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+.decor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+.decor img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(91, 132, 132);
+}
+.pc img{
+    width: 300px;
+    height: 250px;
+}
+.dress{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    margin-top: 10px;
+}
+.dress img{
+        width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 25px;
+    box-sizing: border-box;
+}
+.row2{
+        display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.header img{
+    display: block;
+    margin: 50px auto;
+    width: 27%;
+    border-radius: 20px;
+    
+
+}
+.row3{
+           display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: rgb(224, 227, 231) ;
+}
+#sub{
+    font-size: large;
+    width: 250px;
+    background-color: yellow;
+    padding: 6px;
+    border-radius: 30px;
+}
